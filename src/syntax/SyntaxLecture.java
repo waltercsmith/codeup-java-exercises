@@ -29,9 +29,9 @@ public class SyntaxLecture {
 
 
         //Method ivocations
-        Math.random(); // call the "random()"           method , from the Math class
+        Math.random(); // call the "random()" method , from the Math class
 
-        //say we wanted to assign a random number           to a variable
+        //say we wanted to assign a random number to a variable
         // number = Math.random();
         double randomNumber = Math.random();
 
@@ -161,7 +161,7 @@ public class SyntaxLecture {
 
         int civDollars = 20999999;
         byte civSandwich = (byte) civDollars;
-        System.out.println("Making a nice civ sandwich: " +                 civSandwich);
+        System.out.println("Making a nice civ sandwich: " + civSandwich);
 
         // implicit casting - less to more precise (widening)
 
