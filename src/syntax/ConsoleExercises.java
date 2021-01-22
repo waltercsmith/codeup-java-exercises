@@ -67,7 +67,14 @@ public class ConsoleExercises {
         String userWidthString = scanner.nextLine();
         double userLengthDouble = Double.parseDouble(userLengthString);
         double userWidthDouble = Double.parseDouble(userWidthString);
-        System.out.printf("The length is: "+ userLengthDouble + "%n" +"The width is: " + userWidthDouble);
+        System.out.printf("The length is: "+ userLengthDouble + "%n" +"The width is: " + userWidthDouble + "%n");
+
+        //Display the area and perimeter of that classroom.
+        Double recArea = userLengthDouble * userWidthDouble;
+        Double recPerimeter = (userLengthDouble + 2) + (userWidthDouble + 2);
+
+        System.out.printf("The area is: "+ recArea + "%n" +"The perimeter is: " + recPerimeter);
+
 
     }
 
