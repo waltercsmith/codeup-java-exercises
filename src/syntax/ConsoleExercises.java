@@ -48,11 +48,16 @@ public class ConsoleExercises {
         System.out.println("Enter a sentence");
 
         //Then store that sentence in a String variable using the next method
-        String userSentence = scanner.next();
+//        String userSentence = scanner.next();
 
         //Then, display that sentence back to the user
-        System.out.println(userSentence);
+//        System.out.println(userSentence);
         //The console does not capture all the words
+
+        //Rewrite the above example using the nextLine method
+        String revisedUserSentence = scanner.nextLine();
+        System.out.println(revisedUserSentence);
+
     }
 
 }
