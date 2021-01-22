@@ -35,14 +35,24 @@ public class ConsoleExercises {
 
         /*Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the        console, each on a newline.*/
 
-        System.out.println("Enter 3 words");
-        String word1 = scanner.nextLine();
-        String word2 = scanner.nextLine();
-        String word3 = scanner.nextLine();
-        System.out.println("Here are the three words: --> \"" + word1 + "\" <--");
-        System.out.println("Here are the three words: --> \"" + word2 + "\" <--");
-        System.out.println("Here are the three words: --> \"" + word3 + "\" <--");
+//        System.out.println("Enter 3 words");
+//        String word1 = scanner.nextLine();
+//        String word2 = scanner.nextLine();
+//        String word3 = scanner.nextLine();
+//        System.out.println("Here are the three words: --> \"" + word1 + "\" <--");
+//        System.out.println("Here are the three words: --> \"" + word2 + "\" <--");
+//        System.out.println("Here are the three words: --> \"" + word3 + "\" <--");
+        //Entering less than three words will result in an empty quote
 
+        //Prompt a user to enter a sentence,
+        System.out.println("Enter a sentence");
+
+        //Then store that sentence in a String variable using the next method
+        String userSentence = scanner.next();
+
+        //Then, display that sentence back to the user
+        System.out.println(userSentence);
+        //The console does not capture all the words
     }
 
 }
