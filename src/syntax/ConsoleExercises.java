@@ -19,7 +19,7 @@ public class ConsoleExercises {
 
 
         //System.out.printf("The value of pi is approximately: " + shortValueOfPI);
-        System.out.printf("The value of pi is approximately: %.2f%n", pi);
+//        System.out.printf("The value of pi is approximately: %.2f%n", pi);
 
         /*Prompt a user to enter a integer and store that value in an int variable using the
         nextInt method.*/
@@ -45,7 +45,7 @@ public class ConsoleExercises {
         //Entering less than three words will result in an empty quote
 
         //Prompt a user to enter a sentence,
-        System.out.println("Enter a sentence");
+//        System.out.println("Enter a sentence");
 
         //Then store that sentence in a String variable using the next method
 //        String userSentence = scanner.next();
@@ -55,8 +55,19 @@ public class ConsoleExercises {
         //The console does not capture all the words
 
         //Rewrite the above example using the nextLine method
-        String revisedUserSentence = scanner.nextLine();
-        System.out.println(revisedUserSentence);
+//        String revisedUserSentence = scanner.nextLine();
+//        System.out.println(revisedUserSentence);
+
+
+        //Prompt the user to enter values of length and width of a classroom at Codeup
+        System.out.println("Enter the length and width of a classroom");
+
+        //Use the nextLine method to get user input and parse the resulting string to a numeric type.
+        String userLengthString = scanner.nextLine();
+        String userWidthString = scanner.nextLine();
+        double userLengthDouble = Double.parseDouble(userLengthString);
+        double userWidthDouble = Double.parseDouble(userWidthString);
+        System.out.printf("The length is: "+ userLengthDouble + "%n" +"The width is: " + userWidthDouble);
 
     }
 
