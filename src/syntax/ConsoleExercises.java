@@ -25,14 +25,23 @@ public class ConsoleExercises {
         nextInt method.*/
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter something: ");
-        Integer userInt = scanner.nextInt();
-        System.out.println("You entered: --> \"" + userInt + "\" <--");
+//        System.out.println("Enter something: ");
+//        Integer userInt = scanner.nextInt();
+//        System.out.println("You entered: --> \"" + userInt + "\" <--");
 
         /*When you input something that is not an integer then the console
         displays an "Exception in thread" message
          */
 
+        /*Prompt a user to enter 3 words, and store each of them in a separate variable. Then, display them back in the        console, each on a newline.*/
+
+        System.out.println("Enter 3 words");
+        String word1 = scanner.nextLine();
+        String word2 = scanner.nextLine();
+        String word3 = scanner.nextLine();
+        System.out.println("Here are the three words: --> \"" + word1 + "\" <--");
+        System.out.println("Here are the three words: --> \"" + word2 + "\" <--");
+        System.out.println("Here are the three words: --> \"" + word3 + "\" <--");
 
     }
 
