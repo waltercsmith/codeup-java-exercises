@@ -56,20 +56,21 @@ public class ConsoleExercises {
 
 
         //Prompt the user to enter values of length and width of a classroom at Codeup
-//        System.out.println("Enter the length and width of a classroom");
-//
-//        //Use the nextLine method to get user input and parse the resulting string to a numeric type.
-//        String userLengthString = scanner.nextLine();
-//        String userWidthString = scanner.nextLine();
-//        double userLengthDouble = Double.parseDouble(userLengthString);
-//        double userWidthDouble = Double.parseDouble(userWidthString);
-//        System.out.printf("The length is: "+ userLengthDouble + "%n" +"The width is: " + userWidthDouble + "%n");
-//
+        System.out.println("Enter the length and width of a classroom");
+
+              //Use the nextLine method to get user input and parse the resulting string to a numeric type.
+        String userLengthString = scanner.nextLine();
+        String userWidthString = scanner.nextLine();
+        double userLengthDouble = Double.parseDouble(userLengthString);
+        double userWidthDouble = Double.parseDouble(userWidthString);
+        System.out.printf("The length is: "+ userLengthDouble + "%n" +"The width is: " + userWidthDouble + "%n");
+//          On the above code probably should add %.1f
+
 //        //Display the area and perimeter of that classroom.
-//        Double recArea = userLengthDouble * userWidthDouble;
-//        Double recPerimeter = (userLengthDouble + 2) + (userWidthDouble + 2);
-//
-//        System.out.printf("The area is: "+ recArea + "%n" +"The perimeter is: " + recPerimeter);
+        Double recArea = userLengthDouble * userWidthDouble;
+        Double recPerimeter = (userLengthDouble + 2) + (userWidthDouble + 2);
+
+        System.out.printf("The area is: "+ recArea + "%n" +"The perimeter is: " + recPerimeter);
 
 
     }
