@@ -15,7 +15,8 @@ public class ConsoleExercises {
         //Created a double data type with a value of 3.14
 
 
-        System.out.printf("The value of pi is: " + shortValueOfPI);
+//        System.out.printf("The value of pi is approximately: " + shortValueOfPI);
+        System.out.printf("The value of pi is approximately: %.2f", pi);
 
 
 
