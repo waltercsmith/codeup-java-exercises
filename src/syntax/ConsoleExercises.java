@@ -29,6 +29,9 @@ public class ConsoleExercises {
         Integer userInt = scanner.nextInt();
         System.out.println("You entered: --> \"" + userInt + "\" <--");
 
+        /*When you input something that is not an integer then the console
+        displays an "Exception in thread" message
+         */
 
 
     }
