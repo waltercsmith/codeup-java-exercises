@@ -22,9 +22,12 @@ public class ControlFlowExercises {
             int i = 0;
             do {
                 System.out.println("You will see this despite the condition!");
-            }while (i <= 100);
-                    System.out.println("i is " + i);
-                i++;
+            }
+            while ( i < 101);
+            System.out.println("i is " + i);
+            i++;
+
+            //The above code does not work! It only prints "You will see this despite the condition!
                 }
             }
 
