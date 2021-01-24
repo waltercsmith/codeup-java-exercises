@@ -21,11 +21,13 @@ public class ControlFlowExercises {
         /* Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a             new line*/
             int i = 0;
             do {
-                System.out.println("You will see this despite the condition!");
+                System.out.println(i);
+                i++;
             }
             while ( i < 101);
             System.out.println("i is " + i);
-            i++;
+
+            //The above code will print all the numbers 0 to 101
 
             //The above code does not work! It only prints "You will see this despite the condition!
                 }
