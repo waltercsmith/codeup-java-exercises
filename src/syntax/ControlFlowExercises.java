@@ -27,6 +27,8 @@ public class ControlFlowExercises {
             while ( i < 101);
             System.out.println("i is " + i);
 
+            //Do not delete the i++ because only 0 will print out endlessly
+
             //The above code will print all the numbers 0 to 101
 
             //The above code does not work! It only prints "You will see this despite the condition!
