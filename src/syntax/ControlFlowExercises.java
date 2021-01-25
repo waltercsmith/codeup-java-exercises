@@ -3,6 +3,8 @@ package syntax;
 import com.sun.source.tree.WhileLoopTree;
 
 public class ControlFlowExercises {
+    private int x;
+
     public static void main(String[] args) {
 
         //Loop Basic:
@@ -17,26 +19,39 @@ public class ControlFlowExercises {
 //        }
 
 
-            //Do While
+        //Do While
         /* Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a             new line*/
-            int i = 0;
-        int x = i *2;
-            do {
+//        int i = 0;
+//        int x = i * 2;
+//        do {
+//
+//            System.out.println(i * 2);
+//            i++;
+//        }
+//        while (i <= 50);
 
-                System.out.println(i * 2);
-                i++;
-            }
-            while ( i <= 50);
+        //Realized that if I an multiplication of 2 within the do statment within the println that I could
+        //multiple each increment by 2 and make sure that the while condition was less than or equal to 50
 
-            //Realized that if I an multiplication of 2 within the do statment within the println that I could
-            //multiple each increment by 2 and make sure that the while condition was less than or equal to 50
+        //Do not delete the i++ because only 0 will print out endlessly
 
-            //Do not delete the i++ because only 0 will print out endlessly
+        //Alter your loop to count backwards by 5's from 100 to -10
 
-            //The above code will print all the numbers 0 to 101
+        int i = 20;
+        do {
 
-            //The above code does not work! It only prints "You will see this despite the condition!
-                }
-            }
+            System.out.println(i * 5);
+            i--;
+        }
+        while (i >= -2);
+        /*I noticed that line 40 is the starting point for i. Line 43 will loop i each time and multiple by
+        5. Line 44 is a post decrement which mean that i will decrease by 1 each time it loops.
+        Line 46 is the while condition where the loop will continue as long as the condition is true
+         */
+
+
+    }
+
+}
 
 
