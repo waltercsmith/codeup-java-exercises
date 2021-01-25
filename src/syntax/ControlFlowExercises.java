@@ -22,7 +22,6 @@ public class ControlFlowExercises {
         //Do While
         /* Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a             new line*/
 //        int i = 0;
-//        int x = i * 2;
 //        do {
 //
 //            System.out.println(i * 2);
@@ -54,12 +53,15 @@ public class ControlFlowExercises {
         /*Create a do-while loop that starts at 2, and displays the number squared on each line
         while the number is less than 1,000,000
          */
-        int i = 2;
+        int i = 1;
         do {
-            System.out.println(i);
-            i++
+            System.out.println(i * 2 );
+            i++;
         }
-        while (i <= 1000000);
+        while (i <= 16);
+
+        //I get the ending number of 65536 but not just five lines of numbers
+
 
     }
 
