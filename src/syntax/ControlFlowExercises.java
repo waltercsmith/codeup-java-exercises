@@ -37,18 +37,29 @@ public class ControlFlowExercises {
 
         //Alter your loop to count backwards by 5's from 100 to -10
 
-        int i = 20;
-        do {
+//        int i = 20;
+//        do {
+//
+//            System.out.println(i * 5);
+//            i--;
+//        }
+//        while (i >= -2);
 
-            System.out.println(i * 5);
-            i--;
-        }
-        while (i >= -2);
+
         /*I noticed that line 40 is the starting point for i. Line 43 will loop i each time and multiple by
         5. Line 44 is a post decrement which mean that i will decrease by 1 each time it loops.
         Line 46 is the while condition where the loop will continue as long as the condition is true
          */
 
+        /*Create a do-while loop that starts at 2, and displays the number squared on each line
+        while the number is less than 1,000,000
+         */
+        int i = 2;
+        do {
+            System.out.println(i);
+            i++
+        }
+        while (i <= 1000000);
 
     }
 
