@@ -12,8 +12,8 @@ public class StringExercise {
      String variable and one print statement for each output example*/
 
 
-        String stringOne = "We don't need no education";
-        System.out.println(stringOne);
+        String stringOne1 = "We don't need no education";
+        System.out.println(stringOne1);
 
         String stringTwo = "We don't need no thought control";
         System.out.println(stringTwo);
@@ -27,6 +27,7 @@ public class StringExercise {
         String stringFive = "I can do backslashes \\, double backslashes \\\\,\n" +
                 "and the amazing triple backslash \\\\\\!";
         System.out.println(stringFive);
+
 
 
     }
