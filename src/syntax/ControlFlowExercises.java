@@ -20,11 +20,13 @@ public class ControlFlowExercises {
             //Do While
         /* Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a             new line*/
             int i = 0;
+        int x = i *2;
             do {
                 System.out.println(i);
                 i++;
             }
-            while ( i < 101);
+            while ( i <= 100);
+
             System.out.println("i is " + i);
 
             //Do not delete the i++ because only 0 will print out endlessly
