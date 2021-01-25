@@ -22,12 +22,14 @@ public class ControlFlowExercises {
             int i = 0;
         int x = i *2;
             do {
-                System.out.println(i);
+
+                System.out.println(i * 2);
                 i++;
             }
-            while ( i <= 100);
+            while ( i <= 50);
 
-            System.out.println("i is " + i);
+            //Realized that if I an multiplication of 2 within the do statment within the println that I could
+            //multiple each increment by 2 and make sure that the while condition was less than or equal to 50
 
             //Do not delete the i++ because only 0 will print out endlessly
 
