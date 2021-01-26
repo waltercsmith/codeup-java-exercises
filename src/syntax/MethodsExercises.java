@@ -19,9 +19,18 @@ public class MethodsExercises {
 
     //Division
     public  static int divideNumbers( int dividend, int divisor){
-            return dividend / divisor
+            return dividend / divisor;
     }
     public static void main(String [] args){
 
+        //Test your methods and verify the output
+        int sum = MethodsExercises.addNumbers(2,2);
+        System.out.println("2 + 2 = " + sum);
+        int difference = MethodsExercises.subtractNumbers(9,3);
+        System.out.println("9 - 3 = " + difference);
+        int product = MethodsExercises.multiplyNumbers(2,3);
+        System.out.println("2 x 3 = " + product);
+        int quotient = MethodsExercises.divideNumbers(12,6);
+        System.out.println("12 / 6 = " + quotient);
     }
 }
