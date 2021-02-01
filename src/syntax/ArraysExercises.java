@@ -1,6 +1,9 @@
 package syntax;
 
+
 import java.util.Arrays;
+
+
 
 public class ArraysExercises {
 
@@ -17,6 +20,16 @@ public class ArraysExercises {
         //Why is Arrays.toString necessary
 
         System.out.println(Arrays.toString(numbers));
+
+        Person person1 = new Person("Walter");
+        Person person2 = new Person("Chris");
+        Person person3 = new Person("Dan");
+
+        Person people[] = {person1,person2,person3};
+
+//        for (int peoples : people){
+//            System.out.println();
+//        }
 
 
     }
