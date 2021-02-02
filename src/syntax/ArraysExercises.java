@@ -23,8 +23,13 @@ public class ArraysExercises {
 
         System.out.println(Arrays.toString(numbers));
 
-        Person people[] = new Person[3];
+        String[] people = {"Walter","Jim","Ngozi"};
+
         //Created an array that holds three Person objects
+
+
+        //Assign a new instance of the Person class to each element
+
 
 
 //        Person person1 = new Person("Walter");
