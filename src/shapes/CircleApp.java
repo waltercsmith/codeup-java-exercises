@@ -5,30 +5,23 @@ import java.util.Scanner;
 
 public class CircleApp {
 
-    public double getDouble () {
-        double number;
-
-//        try{ number=Double.valueOf(getString());
-//            System.out.printf("please enter a double: %n");
-//            return number;
-//        }catch (NumberFormatException e){
-//            System.err.println("array out of bounds");;
-//            return getDouble();
-//
-//        }
-
+    public double getDouble (double x) {
+        return x * 2 ;
     }
+
+
+
     public static void main(String[] args) {
 
 
-        Input input=new Input();
+//        Input input=new Input();
 //        double radius = input.getDouble();
 
 
-        Circle circle = new Circle(radius);
+//        Circle circle = new Circle(radius);
 
-        System.out.println("The Area is : " + circle.getArea());
-        System.out.println("The Circumference is : " + circle.getCircumference());
+//        System.out.println("The Area is : " + circle.getArea());
+//        System.out.println("The Circumference is : " + circle.getCircumference());
 
     }
 
