@@ -1,4 +1,3 @@
-package syntax;
 import java.util.Scanner;
 public class MethodsExercises {
     //Create four separate methods. Each will perform an arithmetic operation:

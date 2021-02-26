@@ -1,5 +1,3 @@
-package syntax;
-
 import com.sun.source.tree.WhileLoopTree;
 
 public class ControlFlowExercises {

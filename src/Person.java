@@ -1,5 +1,3 @@
-package syntax;
-
 public class Person {
      private String name;
 
